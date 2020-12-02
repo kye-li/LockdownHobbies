@@ -1,8 +1,11 @@
 <html>
 <body>
 
-Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_GET["email"]; ?>
+<?php echo $_GET["firstname"]; ?><br>
+<?php echo $_GET["lastname"]; ?><br>
+  <?php echo $_GET["country"]; ?><br>
+  <?php echo $_GET["subject"]; ?>
+
 
 </body>
 </html> 
